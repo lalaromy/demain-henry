@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Countdown from "react-countdown";
 
@@ -63,7 +62,6 @@ export default function Home() {
           <p>+ coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon +</p>
         </div>
       </main>
-
 
     </div>
   );
