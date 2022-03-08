@@ -15,16 +15,15 @@ export default function Home() {
   const InfoText = (
     <div className="info-text">
       <p>
-        Tomorrow - the hypothetical, transcendental, purely imaginary idea of
-        potential future happenings.
+        {`Tomorrow - the hypothetical, transcendental, purely imaginary idea of
+        potential future happenings.`}
       </p>
-      <p>
-        Both, 'past' as well as 'future', are fictional terms - neither of them
+      <p>{`Both, 'past' as well as 'future', are fictional terms - neither of them
         are objective, nor can ever be taken for certain. Nevertheless, they
         have become indispensable to our way of thinking and our understanding
         of time: We define ourselves through our past and adapt our life to a
         future that is not even real. This project is meant to point out the
-        ubiquity of desperation for control over time.
+        ubiquity of desperation for control over time.`}
       </p>
     </div>
   );
@@ -34,7 +33,7 @@ export default function Home() {
       <Head>
         <title>Demain</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
           rel="stylesheet"
