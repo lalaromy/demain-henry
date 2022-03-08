@@ -13,7 +13,7 @@ export default function Home() {
   d.setHours(24, 0, 0, 0);
 
   const InfoText = (
-    <div class="info-text">
+    <div className="info-text">
       <p>
         Tomorrow - the hypothetical, transcendental, purely imaginary idea of
         potential future happenings.
@@ -42,11 +42,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div class="info-box">
+        <div className="info-box">
           <img
             src="./question-mark.png"
             alt="question-mark"
-            class="question-mark"
+            className="question-mark"
             onMouseOver={() => setShowText(true)}
             onMouseLeave={() => setShowText(false)}
             onClick={() => setShowText(!showText)}
@@ -60,7 +60,7 @@ export default function Home() {
 
         <h2>Artwork will be online tomorrow</h2>
 
-        <div class="footer-text">
+        <div className="footer-text">
           <p>+ coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon + coming soon +</p>
         </div>
       </main>
